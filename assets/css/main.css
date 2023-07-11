@@ -1636,7 +1636,6 @@ ul {
 }
 
 .tactic__item-6 {
-  margin-right: -115px;
 }
 
 .tactic__item-6 .tactic__item-text {
@@ -2251,12 +2250,16 @@ ul {
   }
 }
 .anim111 {
-  width: 500px;
-  height: 470px;
+  height: 340px;
   display: none;
 }
-.ggggg {
-  position: absolute;
+.tactic__item-5 {
+}
+.anim112 {
+  transition: 0.5s;
+
+  top: 0;
+  left: -80px;
 }
 
 .tactic__item-img:hover .anim111 {
@@ -2266,8 +2269,7 @@ ul {
   display: none;
 }
 .anim112 {
-  width: 500px;
-  height: 470px;
+  height: 340px;
 }
 .ggggg {
   transform: translateX(55px);
@@ -2286,4 +2288,41 @@ ul {
 }
 .trade__international-img:hover .animation2 {
   display: block;
+}
+.conslting__image:hover .conslting__active {
+  display: none;
+}
+.conslting__image:hover .conslting__none {
+  display: block;
+}
+.conslting__active {
+  display: block;
+}
+.conslting__none {
+  display: none;
+}
+@media (max-width: 1441px) {
+  .tactic__item-6 {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .anim112 {
+    width: 120%;
+    height: 100%;
+  }
+  .anim111 {
+    width: 120%;
+    height: 100%;
+  }
+
+  .animation1 {
+    width: 120%;
+  }
+  .tactic__item-6 {
+    margin-top: 0px;
+  }
+  .animation2 {
+    width: 120%;
+  }
 }
